@@ -1,47 +1,39 @@
-# generator-scaledrone-generator [![Build Status](https://secure.travis-ci.org/herkyl/generator-scaledrone-generator.png?branch=master)](https://travis-ci.org/herkyl/generator-scaledrone-generator)
+# ScaleDrone Yeoman Generator
 
-> [Yeoman](http://yeoman.io) generator
+> [ScaleDrone](https://www.scaledrone.com) is easiest way of adding real-time capabilities to your web or mobile app
 
+## Prerequisite
 
-## Getting Started
+Install Yeoman: [yeoman.io](http://yeoman.io/)
 
-### What is Yeoman?
+## Usage
 
-Trick question. It's not a thing. It's this guy:
-
-![](http://i.imgur.com/JHaAlBJ.png)
-
-Basically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.
-
-Not every new computer comes with a Yeoman pre-installed. He lives in the [npm](https://npmjs.org) package repository. You only have to ask for him once, then he packs up and moves into your hard drive. *Make sure you clean up, he likes new and shiny things.*
-
-```bash
-npm install -g yo
+Install `scaledrone-generator`:
+```
+npm install -g scaledrone-generator
 ```
 
-### Yeoman Generators
-
-Yeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.
-
-To install generator-scaledrone-generator from npm, run:
-
-```bash
-npm install -g generator-scaledrone-generator
+Make a new directory, and `cd` into it:
+```
+mkdir my-new-project && cd $_
 ```
 
-Finally, initiate the generator:
-
-```bash
+Run `yo scaledrone-generator`:
+```
 yo scaledrone-generator
 ```
 
-### Getting To Know Yeoman
+## Running
 
-Yeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced.
+Run the client code:
+```
+http-server client
+```
 
-If you'd like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).
+Run the auth server (if you chose to generate it):
+```
+node jwt-server/server.js
+```
 
+Visit your new application at `http://localhost:8080/`
 
-## License
-
-MIT

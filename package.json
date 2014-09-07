@@ -4,17 +4,9 @@
   "description": "Yeoman generator",
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "herkyl/generator-scaledrone-generator",
-  "author": {
-    "name": "Serge",
-    "email": "",
-    "url": "https://github.com/herkyl"
-  },
+  "repository": "https://github.com/ScaleDrone/scaledrone-yo",
   "engines": {
     "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "mocha"
   },
   "files": [
     "app"
