@@ -18,9 +18,9 @@ Make a new directory, and `cd` into it:
 mkdir my-new-project && cd $_
 ```
 
-Run `yo generator-scaledrone`:
+Run `yo scaledrone`:
 ```
-yo generator-scaledrone
+yo scaledrone
 ```
 
 ## Running
