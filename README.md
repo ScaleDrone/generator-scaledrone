@@ -10,7 +10,7 @@ Install Yeoman: [yeoman.io](http://yeoman.io/)
 
 Install `scaledrone-yo`:
 ```
-npm install -g scaledrone-generator
+npm install -g scaledrone-yo
 ```
 
 Make a new directory, and `cd` into it:
