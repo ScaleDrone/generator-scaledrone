@@ -8,7 +8,7 @@ Install Yeoman: [yeoman.io](http://yeoman.io/)
 
 ## Usage
 
-Install `scaledrone-generator`:
+Install `scaledrone-yo`:
 ```
 npm install -g scaledrone-generator
 ```
@@ -18,9 +18,9 @@ Make a new directory, and `cd` into it:
 mkdir my-new-project && cd $_
 ```
 
-Run `yo scaledrone-generator`:
+Run `yo scaledrone-yo` generator:
 ```
-yo scaledrone-generator
+yo scaledrone-yo
 ```
 
 ## Running
