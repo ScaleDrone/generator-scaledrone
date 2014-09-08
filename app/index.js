@@ -66,7 +66,6 @@ var ScaledroneGeneratorGenerator = yeoman.generators.Base.extend({
     }.bind(this));
     this.npmInstall(['express'], { 'save': true }, done);
     this.npmInstall(['jwt-simple'], { 'save': true }, done);
-    this.npmInstall(['http-server'], { 'saveDev': true }, done);
   }
 });
 

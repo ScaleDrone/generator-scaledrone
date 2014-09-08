@@ -25,15 +25,15 @@ yo scaledrone
 
 ## Running
 
-Run the client code:
+Open up the client with your favorite http server:
 ```
 http-server client
 ```
+_I am using Node.js based [http-server](https://www.npmjs.org/package/http-server)_
 
 Run the auth server (if you chose to generate it):
 ```
 node jwt-server/server.js
 ```
 
-Visit your new application at `http://localhost:8080/`
-
+Visit the client server at `http://localhost:8080/` (_you might be using a different port_)
